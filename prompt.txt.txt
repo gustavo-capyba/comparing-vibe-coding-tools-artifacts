@@ -1,0 +1,97 @@
+Create a responsive web application called wildlife-track.
+
+
+Context:
+The system simulates a nature park where visitors track wildlife, receive notifications, and handle emergency situations in real time.
+
+
+Core Features:
+
+
+User Management:
+- Users can sign up and log in
+- Each user must provide:
+    - Nationality (e.g., BR or US)
+    - Phone number
+    - Vehicle license plate
+- Document validation based on nationality:
+    - BR users must provide either CPF or RG
+    - US users must provide a valid identification (e.g., driver license)
+- Implement proper validation logic for document formats
+- Include unit tests for document validation
+
+
+Location & Context Awareness:
+- Use browser geolocation API (real GPS, with user permission)
+- The map must initialize centered on the user’s current location if permission is granted
+- If geolocation is unavailable or denied, default to Recife, Brazil (Default coordinates: (-8.063169, -34.871139))
+- Restrict the map to a municipal-scale geographic area
+- Use an initial zoom level focused on city/municipal view (not world-level)
+- Optimize map performance by limiting unnecessary tile loading
+- Show contextual information based on location
+
+
+Animal Spotting:
+- Users can report animal sightings
+- Each sighting must include:
+    - Animal type
+    - Timestamp
+    - Location (from GPS)
+- Sightings should be displayed on a map
+
+
+Notifications:
+- Users can subscribe to specific animal types
+- Provide:
+    - In-app notifications
+    - Email notifications (can be simulated, e.g., logged to console)
+- Notify users when a relevant sighting occurs nearby
+
+
+Crowd Control:
+- Implement a threshold-based rule:
+    - If too many users are near a sighting, suppress notifications
+
+
+Emergency System:
+- Users can trigger an emergency alert
+- Alerts must include user location
+- System should notify park staff (simulated)
+
+
+Frontend:
+- Clean and simple UI
+- Responsive layout
+- Map view using compatible versions of Leaflet with OpenStreetMap tiles (no API key required)
+- Forms for reporting sightings and emergencies
+
+
+Backend:
+- Provide API endpoints for all operations
+- Use a simple database
+- Handle users, sightings, and alerts
+
+
+Testing:
+- Include unit tests for:
+    - Document validation rules
+    - Crowd control logic
+    - Notification logic
+- Keep tests isolated and readable
+
+
+Project Requirements:
+- Provide a complete README including:
+    - Setup instructions
+    - Architecture explanation
+- Include a .env.example if needed
+- Do not use AI-specific features
+- Use any technology stack
+- Avoid deprecated or conflicting packages and version conflicts
+
+
+General Requirements:
+- Organize the code in a clear and maintainable structure
+- Use consistent naming conventions
+- Add basic error handling
+- Keep the implementation simple (avoid over-engineering)

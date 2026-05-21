@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "outDir": "dist",
+    "rootDir": "src",
+    "types": [
+      "node"
+    ],
+    "allowJs": true,
+    "checkJs": false,
+    "noEmit": true
+  },
+  "include": [
+    "../artifacts/api-server/src",
+    "../artifacts/api-server/*.ts",
+    "../artifacts/api-server/*.tsx",
+    "../artifacts/api-server/*.js",
+    "../artifacts/api-server/*.jsx",
+    "../artifacts/api-server/*.mjs",
+    "../artifacts/api-server/*.cjs"
+  ]
+}

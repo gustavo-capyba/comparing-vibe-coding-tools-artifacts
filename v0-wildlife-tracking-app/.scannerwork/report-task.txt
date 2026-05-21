@@ -1,0 +1,6 @@
+projectKey=v0-wildlife-tracking-app
+serverUrl=http://localhost:9000
+serverVersion=26.4.0.121862
+dashboardUrl=http://localhost:9000/dashboard?id=v0-wildlife-tracking-app
+ceTaskId=48f963ef-aff7-4d52-a8eb-af78af21cf55
+ceTaskUrl=http://localhost:9000/api/ce/task?id=48f963ef-aff7-4d52-a8eb-af78af21cf55

@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "composite": true,
+    "declarationMap": true,
+    "emitDeclarationOnly": true,
+    "outDir": "dist",
+    "rootDir": "src",
+    "lib": [
+      "dom",
+      "es2022"
+    ],
+    "allowJs": true,
+    "checkJs": false,
+    "noEmit": true
+  },
+  "include": [
+    "../lib/api-client-react/src",
+    "../lib/api-client-react/*.ts",
+    "../lib/api-client-react/*.tsx",
+    "../lib/api-client-react/*.js",
+    "../lib/api-client-react/*.jsx",
+    "../lib/api-client-react/*.mjs",
+    "../lib/api-client-react/*.cjs"
+  ]
+}

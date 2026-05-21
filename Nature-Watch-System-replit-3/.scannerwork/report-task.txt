@@ -1,0 +1,6 @@
+projectKey=Nature-Watch-System-replit-3
+serverUrl=http://localhost:9000
+serverVersion=26.4.0.121862
+dashboardUrl=http://localhost:9000/dashboard?id=Nature-Watch-System-replit-3
+ceTaskId=a0ad9595-7104-418d-85b7-fbd901844a34
+ceTaskUrl=http://localhost:9000/api/ce/task?id=a0ad9595-7104-418d-85b7-fbd901844a34

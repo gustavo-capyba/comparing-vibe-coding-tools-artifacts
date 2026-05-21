@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "composite": true,
+    "declarationMap": true,
+    "emitDeclarationOnly": true,
+    "outDir": "dist",
+    "rootDir": "src",
+    "types": [
+      "node"
+    ],
+    "allowJs": true,
+    "checkJs": false,
+    "noEmit": true
+  },
+  "include": [
+    "../lib/db/src",
+    "../lib/db/*.ts",
+    "../lib/db/*.tsx",
+    "../lib/db/*.js",
+    "../lib/db/*.jsx",
+    "../lib/db/*.mjs",
+    "../lib/db/*.cjs"
+  ]
+}

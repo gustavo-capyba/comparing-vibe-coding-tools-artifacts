@@ -1,0 +1,40 @@
+{
+  "compilerOptions": {
+    "noEmit": true,
+    "jsx": "preserve",
+    "lib": [
+      "esnext",
+      "dom",
+      "dom.iterable"
+    ],
+    "resolveJsonModule": true,
+    "moduleResolution": "node16",
+    "types": [
+      "node",
+      "vite/client"
+    ],
+    "paths": {
+      "@/*": [
+        "./src/*"
+      ]
+    },
+    "allowJs": true,
+    "checkJs": false,
+    "baseUrl": "../artifacts/wildlife-track"
+  },
+  "include": [
+    "../artifacts/wildlife-track/src/**/*",
+    "../artifacts/wildlife-track/*.ts",
+    "../artifacts/wildlife-track/*.tsx",
+    "../artifacts/wildlife-track/*.js",
+    "../artifacts/wildlife-track/*.jsx",
+    "../artifacts/wildlife-track/*.mjs",
+    "../artifacts/wildlife-track/*.cjs"
+  ],
+  "exclude": [
+    "../artifacts/wildlife-track/node_modules",
+    "../artifacts/wildlife-track/build",
+    "../artifacts/wildlife-track/dist",
+    "../artifacts/wildlife-track/**/*.test.ts"
+  ]
+}

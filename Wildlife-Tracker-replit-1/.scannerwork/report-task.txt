@@ -1,0 +1,6 @@
+projectKey=Wildlife-Tracker-replit-1
+serverUrl=http://localhost:9000
+serverVersion=26.4.0.121862
+dashboardUrl=http://localhost:9000/dashboard?id=Wildlife-Tracker-replit-1
+ceTaskId=85ae8f6a-6f29-49a1-b364-b8e3c9e7a43a
+ceTaskUrl=http://localhost:9000/api/ce/task?id=85ae8f6a-6f29-49a1-b364-b8e3c9e7a43a

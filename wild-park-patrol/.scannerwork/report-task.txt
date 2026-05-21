@@ -1,0 +1,6 @@
+projectKey=wild-park-patrol
+serverUrl=http://localhost:9000
+serverVersion=26.4.0.121862
+dashboardUrl=http://localhost:9000/dashboard?id=wild-park-patrol
+ceTaskId=08ba98bf-d594-4d0d-a9da-3a6d8a4bc387
+ceTaskUrl=http://localhost:9000/api/ce/task?id=08ba98bf-d594-4d0d-a9da-3a6d8a4bc387

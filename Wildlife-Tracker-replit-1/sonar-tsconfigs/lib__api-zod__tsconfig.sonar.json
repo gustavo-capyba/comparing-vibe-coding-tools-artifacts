@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "composite": true,
+    "declarationMap": true,
+    "emitDeclarationOnly": true,
+    "outDir": "dist",
+    "rootDir": "src",
+    "allowJs": true,
+    "checkJs": false,
+    "noEmit": true
+  },
+  "include": [
+    "../lib/api-zod/src",
+    "../lib/api-zod/*.ts",
+    "../lib/api-zod/*.tsx",
+    "../lib/api-zod/*.js",
+    "../lib/api-zod/*.jsx",
+    "../lib/api-zod/*.mjs",
+    "../lib/api-zod/*.cjs"
+  ]
+}

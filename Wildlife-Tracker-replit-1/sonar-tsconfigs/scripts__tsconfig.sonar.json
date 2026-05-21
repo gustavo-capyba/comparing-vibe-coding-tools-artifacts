@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "outDir": "dist",
+    "rootDir": "src",
+    "types": [
+      "node"
+    ],
+    "allowJs": true,
+    "checkJs": false,
+    "noEmit": true
+  },
+  "include": [
+    "../scripts/src",
+    "../scripts/*.ts",
+    "../scripts/*.tsx",
+    "../scripts/*.js",
+    "../scripts/*.jsx",
+    "../scripts/*.mjs",
+    "../scripts/*.cjs"
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "compilerOptions": {
+    "noEmit": true,
+    "lib": [
+      "es2022",
+      "dom",
+      "dom.iterable"
+    ],
+    "jsx": "preserve",
+    "esModuleInterop": true,
+    "types": [
+      "node",
+      "vite/client"
+    ],
+    "paths": {
+      "@/*": [
+        "./src/*"
+      ]
+    },
+    "allowJs": true,
+    "checkJs": false,
+    "baseUrl": "../artifacts/mockup-sandbox"
+  },
+  "include": [
+    "../artifacts/mockup-sandbox/src/**/*",
+    "../artifacts/mockup-sandbox/mockupPreviewPlugin.ts",
+    "../artifacts/mockup-sandbox/vite.config.ts",
+    "../artifacts/mockup-sandbox/*.ts",
+    "../artifacts/mockup-sandbox/*.tsx",
+    "../artifacts/mockup-sandbox/*.js",
+    "../artifacts/mockup-sandbox/*.jsx",
+    "../artifacts/mockup-sandbox/*.mjs",
+    "../artifacts/mockup-sandbox/*.cjs"
+  ],
+  "exclude": [
+    "../artifacts/mockup-sandbox/node_modules",
+    "../artifacts/mockup-sandbox/build",
+    "../artifacts/mockup-sandbox/dist",
+    "../artifacts/mockup-sandbox/**/*.test.ts"
+  ]
+}
