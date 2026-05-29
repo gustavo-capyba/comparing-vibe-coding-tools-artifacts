@@ -1,0 +1,31 @@
+kind = "web"
+previewPath = "/"
+title = "Wildlife Track"
+version = "1.0.0"
+id = "artifacts/wildlife-track"
+router = "path"
+
+[[integratedSkills]]
+name = "react-vite"
+version = "1.0.0"
+
+[[services]]
+name = "web"
+paths = [ "/" ]
+localPort = 19843
+
+[services.development]
+run = "pnpm --filter @workspace/wildlife-track run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/wildlife-track", "run", "build" ]
+publicDir = "artifacts/wildlife-track/dist/public"
+serve = "static"
+
+[[services.production.rewrites]]
+from = "/*"
+to = "/index.html"
+
+[services.env]
+PORT = "19843"
+BASE_PATH = "/"
